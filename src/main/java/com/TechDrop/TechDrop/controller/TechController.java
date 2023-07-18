@@ -10,4 +10,9 @@ public class TechController {
     public String home(){
         return "home";
     }
+
+    @GetMapping("/tech-reigster")
+    public String techRegister(){
+        return "techRegister";
+    }
 }
